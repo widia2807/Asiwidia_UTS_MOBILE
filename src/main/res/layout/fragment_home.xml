@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.FragmentHome">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#3E2828" />
+
+    <TextView
+        android:id="@+id/txtTentangApk"
+        android:layout_width="275dp"
+        android:layout_height="172dp"
+        android:text="Tentang Aplikasi"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/txtTentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dalam aplikasi ini, alumni dapat memasukkan data diri mereka seperti nama, nomor induk mahasiswa alamat dan email. Selain itu, alumni juga dapat mengupdate data-data tersebut setiap kali mereka membutuhkan.
+         Pengelola data alumni PNJ dapat menggunakan aplikasi ini untuk memantau data alumni, melakukan pencarian data berdasarkan kriteria tertentu, dan mengelola data-data tersebut.
+         Aplikasi ini juga menyediakan fitur untuk mengirimkan notifikasi atau pemberitahuan kepada alumni melalui email atau SMS.  Dengan adanya APK Pendataan Alumni PNJ, proses pendataan alumni menjadi lebih efisien dan akurat.
+         Selain itu, aplikasi ini dapat membantu pengelolaan hubungan dengan alumni, menciptakan jaringan alumni yang kuat, dan meningkatkan kesempatan kerja dan pengembangan profesional bagi alumni PNJ."
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btnNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="News" />
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="Profile" />
+
+    </LinearLayout>
+</LinearLayout>
